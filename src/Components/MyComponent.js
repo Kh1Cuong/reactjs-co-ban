@@ -7,7 +7,7 @@ class MyComponent extends React.Component {
     // JSX
     render() {
         return (
-            <div> My First Component
+            <div> My First Component <br></br>
                 {Math.random()}
             </div>
         );
