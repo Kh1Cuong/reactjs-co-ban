@@ -8,28 +8,14 @@ import React from "react";
 
 class App extends React.Component {
 
-  render () {
+  render() {
     return (
-    <MyComponent></MyComponent>
+      <div>
+        <h1>Hello world with REACTJS</h1>
+        <MyComponent></MyComponent>
+      </div>
     );
   }
 }
-
-// const App = () => {
-//   const count = useSelector((state) => state.counter.count);
-//   const dispatch = useDispatch();
-
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>Hello world with Ngo Khi Cuong</p>
-//         <div>Count = {count}</div>
-//         <button onClick={() => dispatch(increaseCounter())}>Increase</button>
-//         <button onClick={() => dispatch(decreaseCounter())}>Decrease</button>
-//       </header>
-//     </div>
-//   );
-// };
 
 export default App;
