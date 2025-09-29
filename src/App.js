@@ -3,22 +3,14 @@ import "./App.css";
 // import { useDispatch, useSelector } from "react-redux";
 // import { increaseCounter, decreaseCounter } from "./redux/action/counterAction";
 
-// import MyComponent from "./Components/MyComponent";
+import MyComponent from "./Components/MyComponent";
 import React from "react";
 
 class App extends React.Component {
 
-  state = {
-    name: "Ngo Khi Cuong",
-    address: "Hoi Dan IT",
-    age: 26
-  }
-
   render () {
     return (
-    <div>
-      My name is {this.state.name} and I'm from {this.state.address}
-    </div>
+    <MyComponent></MyComponent>
     );
   }
 }
